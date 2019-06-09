@@ -1,0 +1,50 @@
+html {
+  background-color: #0c0804;
+}
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  color: #ffcc0b;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.2rem;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+main {
+  flex-grow: 1;
+  hyphens: auto;
+  cursor: pointer;
+  user-select: none;
+}
+
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    li {
+      padding-left: 1.2rem;
+      cursor: pointer;
+      user-select: none;
+
+      &:hover,
+      &:active {
+        color: #0c0804;
+        background: #ffcc0b;
+      }
+    }
+  }
+}
